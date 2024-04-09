@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "354802365630",
+    "project_id": "fliqq-8f4e8",
+    "storage_bucket": "fliqq-8f4e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354802365630:android:55cbfb135d8f17ce099aef",
+        "android_client_info": {
+          "package_name": "com.fliqq.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354802365630-7bn36c1joar9e1cdiq021paoi5o47j57.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCncoTzbkBzS7CeZ_1VBEbPNgksHvtx-2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354802365630-7bn36c1joar9e1cdiq021paoi5o47j57.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "354802365630-1gtudj598gl23ls9n1jmhgcsk6amqqkn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.fliqq.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

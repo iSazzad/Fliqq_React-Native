@@ -3,7 +3,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 import { LoginParamsList } from "./types";
 import Login from "../Screen/Login";
 import Routes from "./Routes";
-import Splash from "../Screen/Splash";
+import Splash from "../Screen/View/Splash";
 
 const Stack = createStackNavigator<LoginParamsList>();
 export default function StackNavigation() {

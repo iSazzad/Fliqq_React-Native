@@ -4,11 +4,11 @@ import {
   DrawerParamsListProps,
 } from "./types";
 
-import SideMenu from "../Screen/SideMenu";
+import SideMenu from "../Screen/View/SideMenu";
 import Routes from "./Routes";
 import Dashboard from "../Screen/Dashboard";
 import Player from "../Screen/Extra/Player";
-import Alphabets from "../Screen/Alphabets";
+import Alphabets from "../Screen/View/Alphabets";
 import Numbers from "../Screen/Numbers";
 import { Settings } from "../Screen/Settings";
 
@@ -29,7 +29,7 @@ const DrawerNavigation = ({ navigation }: any) => {
         headerShown: false,
         drawerType: "front",
         drawerStyle: { width: "70%" },
-        swipeEnabled:false        
+        swipeEnabled: false
       }}
       drawerContent={() => <SideMenu />}
     >

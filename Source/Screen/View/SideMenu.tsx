@@ -1,14 +1,13 @@
 import React, { useEffect, useState } from "react";
-import { View, Text, StyleSheet, TouchableOpacity, Image, Alert } from "react-native";
+import { View, Text, TouchableOpacity, Alert } from "react-native";
 
 import { SafeAreaView } from "react-native-safe-area-context";
 import Color from "../../Constant/Color";
 import Responsive from "../../Constant/Responsive";
-import Images from "../../Constant/Images";
 import { GlobalStyle } from "../../Constant/GlobalStyle";
 import Routes from "../../Navigator/Routes";
 import NavigationService from "../../Navigator/NavigationService";
-import { style } from "./style";
+import { style } from "../Styles/SideMenu";
 import { useAuth } from "../../Constant/AuthContext";
 import { ScrollView } from "react-native-gesture-handler";
 import { CharacterImageName } from "../../Constant/Constant";
@@ -105,7 +104,7 @@ const SideMenu = ({ onTapList }: any) => {
           </View>
         </View>
         <View style={style.listContainer}>
-          {drawerItem.map((item: any, index:any) => {
+          {drawerItem.map((item: any, index: any) => {
             return (
               <View
                 style={style.listItemContainer}
